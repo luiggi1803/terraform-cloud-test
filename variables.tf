@@ -69,12 +69,12 @@ variable "ingress_ports_list" {
   type        = list(number)
 }
 
-variable "aws_access_key" {
+variable "access_key" {
   description = "AWS Access Key"
   type        = string
 }
 
-variable "aws_secret_key" {
+variable "secret_key" {
   description = "AWS Secret Key"
   type        = string
 }
