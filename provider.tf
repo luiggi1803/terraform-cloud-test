@@ -19,8 +19,8 @@ provider "aws" {
     tags = local.tags
   }
 
-  access_key = var.use_floci ? "test" : null
-  secret_key = var.use_floci ? "test" : null
+  access_key = var.use_floci ? "test" : var.aws_access_key
+  secret_key = var.use_floci ? "test" : var.aws_secret_key
 
   skip_credentials_validation = var.use_floci
   skip_metadata_api_check     = var.use_floci
