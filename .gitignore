@@ -6,7 +6,7 @@ crash.log
 crash.*.log
 
 # Variables locales (subir terraform.tfvars.example en su lugar)
-*.tfvars
+# *.tfvars
 *.auto.tfvars
 !terraform.tfvars.example
 
